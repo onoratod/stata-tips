@@ -16,7 +16,7 @@ nav_order: 2
 Removing elements of a local is easy. Simply create another local `minus` with the Locals
 you want to exclude.
 
-```stata
+```
 local vars a b c
 local minus a
 
