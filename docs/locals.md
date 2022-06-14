@@ -31,7 +31,7 @@ Removing elements of a local is easy.
 
 1. Create a local (`minus`) with the elements you want to remove
 
-    ```stata
+    ```python
     local vars a b c
     local minus a
     ```
