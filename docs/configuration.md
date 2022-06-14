@@ -20,11 +20,11 @@ you want to exclude.
 local vars a b c
 local minus a
 
-display `vars`
+display `vars'
 . a b c
 
 local vars : list vars - minus
-display `vars`
+display `vars'
 . b c
 ```
 
