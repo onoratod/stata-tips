@@ -1,26 +1,33 @@
 ---
 layout: default
-title: Configuration
+title: All About Locals
 nav_order: 2
 ---
-
-# Configuration
-{: .no_toc }
-
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
-{: .fs-6 .fw-300 }
-
-## Table of contents
-{: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+## Manipulating Locals
 
-## Site logo
+### Add/Remove Elements
+
+Removing elements of a local is easy. Simply create another local `minus` with the Locals
+you want to exclude.
+
+```stata
+local vars a b c
+local minus a
+
+display `vars`
+. a b c
+
+local vars : list vars - minus
+display `vars`
+. b c
+```
+
 
 ```yaml
 # Set a path/url to a logo that will be displayed instead of the title
