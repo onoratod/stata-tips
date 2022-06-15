@@ -3,3 +3,4 @@ gemspec
 
 gem "webrick"
 gem "rouge"
+gem "github-pages"
