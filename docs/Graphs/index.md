@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Graph Options
-parent: Graphing in Stata
+title: Graphing in Stata
+has_children: true
 nav_order: 2
 ---
 
@@ -22,10 +22,9 @@ In some schemes, Stata outlines the top and right borders of the graph. To remov
 plotregion(lstyle(none))
 ```
 
-<p float="left">
-  <img src="../../assets/images/example_graph_outlined.png" width="400" />
-  <img src="../../assets/images/example_graph.png" width="400" />
-</p>
+![](../../assets/images/example_graph_outlined.png)
+
+![]("../../assets/images/example_graph.png)
 
 ### Extending the Plot Region
 
