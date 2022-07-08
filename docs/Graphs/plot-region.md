@@ -23,10 +23,9 @@ In some schemes, Stata outlines the top and right borders of the graph. To remov
 plotregion(lstyle(none))
 ```
 
-<p float="left">
-  <img src="../../assets/images/example_graph_outlined.png" height="400" />
-  <img src="../../assets/images/example_graph.png" height="400" />
-</p>
+Border             |  No Border
+:-------------------------:|:-------------------------:
+![](../../assets/images/example_graph_outlined.png)  |  ![](../../assets/images/example_graph.png)
 
 ### Extending the Plot Region
 
@@ -39,7 +38,6 @@ In this case, I'm adding 17 units to the right margin of the graph region. There
 graphregion(margin(r+17))
 ```
 
-<p float="left">
-  <img src="../../assets/images/extending_plotregion.png" height="400" />
-  <img src="../../assets/images/extending_plotregion_extended.png" height="400" />
-</p>
+Normal Margin             |  Extended Margin
+:-------------------------:|:-------------------------:
+![](../../assets/images/extending_plotregion.png)  |  ![](../../assets/images/extending_plotregion_extended.png)
