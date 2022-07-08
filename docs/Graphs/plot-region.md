@@ -23,9 +23,10 @@ In some schemes, Stata outlines the top and right borders of the graph. To remov
 plotregion(lstyle(none))
 ```
 
-![](../../assets/images/example_graph_outlined.png)
-
-![]("../../assets/images/example_graph.png)
+<p float="left">
+  <img src="../../assets/images/example_graph_outlined.png" height="400" />
+  <img src="../../assets/images/example_graph.png" height="400" />
+</p>
 
 ### Extending the Plot Region
 
