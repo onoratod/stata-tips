@@ -12,7 +12,7 @@ permalink: /
 A collection of useful Stata tips compiled over the years.
 {: .fs-6 .fw-300 }
 
-[View it on GitHub](https://github.com/just-the-docs/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View it on GitHub](https://github.com/onoratod/stata-tips){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
